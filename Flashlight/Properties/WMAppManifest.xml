@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{020271ec-4f98-46be-88ae-b46ff178f210}" Title="Privacy Flashlight" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Snoopwall LLC" Description="Privacy Flashlight" Publisher="Snoopwall LLC" PublisherID="{19680c5c-307c-4e83-b5aa-4d081812aee4}">
+    <IconPath IsRelative="true" IsResource="false">logo_small.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_ISV_CAMERA" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="FlashlightToken" TaskName="_default">
+        <TemplateIconic>
+          <SmallImageURI IsRelative="true" IsResource="false">logo_small.png</SmallImageURI>
+          <Count>0</Count>
+          <IconImageURI IsRelative="true" IsResource="false">logo_small.png</IconImageURI>
+          <Title>Privacy Flashlight</Title>
+          <Message>
+          </Message>
+          <BackgroundColor>
+          </BackgroundColor>
+          <HasLarge>false</HasLarge>
+          <LargeContent1>
+          </LargeContent1>
+          <LargeContent2>
+          </LargeContent2>
+          <LargeContent3>
+          </LargeContent3>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+        </TemplateIconic>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
