@@ -10,10 +10,6 @@
 
         <local:LocalizedStrings xmlns:local="clr-namespace:Flashlight" x:Key="LocalizedStrings"/>
 
-        <Style TargetType="TextBlock" x:Key="Roboto">
-            <Setter Property="TextElement.FontFamily" Value="Assets/#Roboto"/>
-        </Style>
-
         <BitmapImage x:Key="flash" UriSource="/Assets/flash.png"/>
         <BitmapImage x:Key="flashPressed" UriSource="/Assets/flash_pressed.png"/>
         <BitmapImage x:Key="screen" UriSource="/Assets/screen.png"/>

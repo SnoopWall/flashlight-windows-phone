@@ -32,9 +32,8 @@
 
         <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center">
             <TextBlock Name="Title"
-                       Foreground="White" 
-                       FontFamily="\Assets\Roboto-Italic.ttf#Roboto" FontSize="42" >
-                <Bold>PRIVACY</Bold> FLASHLIGHT
+                       Foreground="White" FontSize="38" >
+                <Italic><Bold>PRIVACY</Bold> FLASHLIGHT</Italic>
             </TextBlock>
             <Image Margin="8,0,0,0" Source="\Assets\flash.png"/>
         </StackPanel>
@@ -72,8 +71,7 @@
             <TextBlock Height="200"/>
             <Image Source="\logo_small.png" Width="64" Height="64"/>
             <TextBlock Name="Website" Padding="8"
-                       Foreground="White" HorizontalAlignment="Center"
-                       FontFamily="\Assets\Roboto-Regular.ttf#Roboto" FontSize="25" >
+                       Foreground="White" HorizontalAlignment="Center" FontSize="25" >
                 www.snoopwall.com
             </TextBlock>
         </StackPanel>
