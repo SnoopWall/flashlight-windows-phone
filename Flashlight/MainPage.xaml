@@ -69,7 +69,7 @@
 
         <StackPanel Orientation="Vertical" Grid.Row="2" Tap="Website_Tap" VerticalAlignment="Bottom">
             <TextBlock Height="200"/>
-            <Image Source="\logo_small.png" Width="64" Height="64"/>
+            <Image Source="\Assets\96.png" Width="96" Height="96"/>
             <TextBlock Name="Website" Padding="8"
                        Foreground="White" HorizontalAlignment="Center" FontSize="25" >
                 www.snoopwall.com

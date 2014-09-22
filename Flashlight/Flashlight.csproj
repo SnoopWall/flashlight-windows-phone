@@ -115,6 +115,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\96.png" />
     <Content Include="Assets\flash.png" />
     <Content Include="Assets\flash_pressed.png" />
     <Content Include="logo_small.png" />

@@ -10,6 +10,7 @@
 
         <local:LocalizedStrings xmlns:local="clr-namespace:Flashlight" x:Key="LocalizedStrings"/>
 
+        <BitmapImage x:Key="logo" UriSource="/Assets/48.png"/>
         <BitmapImage x:Key="flash" UriSource="/Assets/flash.png"/>
         <BitmapImage x:Key="flashPressed" UriSource="/Assets/flash_pressed.png"/>
         <BitmapImage x:Key="screen" UriSource="/Assets/screen.png"/>
