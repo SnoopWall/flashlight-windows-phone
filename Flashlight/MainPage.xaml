@@ -8,7 +8,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="False">
 
     <Grid x:Name="LayoutRoot" Background="White" Margin="8">
 
@@ -69,7 +69,7 @@
 
         <StackPanel Orientation="Vertical" Grid.Row="2" Tap="Website_Tap" VerticalAlignment="Bottom">
             <TextBlock Height="200"/>
-            <Image Source="\Assets\96.png" Width="96" Height="96"/>
+            <Image Source="\logo_small.png" Width="96" Height="96"/>
             <TextBlock Name="Website" Padding="8"
                        Foreground="White" HorizontalAlignment="Center" FontSize="25" >
                 www.snoopwall.com

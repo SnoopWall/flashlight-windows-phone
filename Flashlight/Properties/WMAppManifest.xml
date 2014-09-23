@@ -2,7 +2,7 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <App xmlns="" ProductID="{020271ec-4f98-46be-88ae-b46ff178f210}" Title="Privacy Flashlight" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Snoopwall LLC" Description="Privacy Flashlight" Publisher="Snoopwall LLC" PublisherID="{19680c5c-307c-4e83-b5aa-4d081812aee4}">
-    <IconPath IsRelative="true" IsResource="false">logo_small.png</IconPath>
+    <IconPath IsRelative="true" IsResource="false">300f.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_ISV_CAMERA" />
     </Capabilities>
@@ -12,9 +12,9 @@
     <Tokens>
       <PrimaryToken TokenID="FlashlightToken" TaskName="_default">
         <TemplateIconic>
-          <SmallImageURI IsRelative="true" IsResource="false">logo_small.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">110foa.png</SmallImageURI>
           <Count>0</Count>
-          <IconImageURI IsRelative="true" IsResource="false">logo_small.png</IconImageURI>
+          <IconImageURI IsRelative="true" IsResource="false">202foa.png</IconImageURI>
           <Title>Privacy Flashlight</Title>
           <Message>
           </Message>
